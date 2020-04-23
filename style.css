@@ -12,16 +12,18 @@ helpers */
 /*******************************************
  Header */
 .nw-header {
-    
+    padding: 0;
 }
 
 .nw-header h1{
     color: white;
     font-size: 24px;
+    font-weight: bolder;
 }
 
 .nw-header a {
     align-self: center;
+    white-space: nowrap;
     color: white;
     text-decoration: none;
     padding: 6px 3px;
@@ -37,7 +39,7 @@ helpers */
 
 /*******************************************
 Menu-bar */
-.menu-bar {
+.nw-menu-btn {
     cursor: pointer;
     padding-left: 10px;
 }
