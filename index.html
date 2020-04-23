@@ -19,24 +19,24 @@
 </head>
 
 <body>
-  <header class="navbar sticky-top bg--red nw-header">
-    <div class="container-fluid">
-      <div class="row no-gutters align-items-center">
-        <div class="col-10">
+  <header class="sticky-top bg--red nw-header">
+    <div class="container-fluid p-2">
+      
+      <div class="row align-items-center justify-content-between">
+        <div class="col-6">
           <h1>Newsweek</h1>
         </div>
-  
-        <div class="col-2 d-flex">
-          <nav class="nav navbar-nav">
-            <a href="#">sign in</a>
-            <a href="#">subscribe</a>
-          </nav>
-          <div id="menu-btn" class="menu-bar">
+
+        <div class="col-6 d-inline-flex">
+          <a href="#">sign in</a>
+          <a href="#">subscribe</a>
+          <div id="menu-btn" class="nw-menu-btn">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
           </div>
         </div>
+
       </div>
     </div>
   </header>
@@ -59,7 +59,7 @@
 
     var menuBtn = document.getElementById('menu-btn');
 
-    menuBtn.addEventListener('click', function() {
+    menuBtn.addEventListener('click', function () {
       menuBtn.classList.toggle("change");
     });
     // function myFunction() {
