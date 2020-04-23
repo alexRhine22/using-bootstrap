@@ -180,6 +180,31 @@ helpers */
 
 
 /*******************************************
+IN THE MAGAZINE */
+.in-mag {
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+}
+
+.in-mag h4{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.in-mag span {
+    text-transform: uppercase;
+    padding: 4px 7px;
+    background-color: #f72210;
+    color: white;
+    margin-right: 7px;
+}
+
+.in-mag a {
+    text-decoration: none;
+    color: #f72210;;
+}
+
+/*******************************************
 Menu-bar */
 .nw-menu-btn {
     cursor: pointer;
