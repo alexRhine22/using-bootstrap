@@ -1,25 +1,29 @@
 :root {
-    --color-red: #f72210;
-    --color-pink: #fb9a94;
-    --color-weird-blue: #f4f5f6;
-    --color-light-black: rgba(3,3,3,.4);
+    --red: #f72210;
+    --pink: #fb9a94;
+    --weird-blue: #f4f5f6;
+    --light-black: rgba(3,3,3,.4);
 }
 /*******************************************
 globals */
 body {
     font-size: 15px;
     line-height: 20px;
-    background-color: var(--color-weird-blue);
+    background-color: var(--weird-blue);
 }
 
 /*******************************************
 helpers */
 .bg--red {
-    background-color: var(--color-red);
+    background-color: var(--red);
 }
 
 .bg--white {
     background-color: white;
+}
+
+.bg--grey {
+    background-color: var(--weird-blue);
 }
 
 .section-padding-xs {
@@ -34,7 +38,7 @@ helpers */
 
 .section-title {
     font: bold 16px/16px "Roboto Condensed",sans-serif;;
-    color: var(--color-light-black);
+    color: var(--light-black);
     text-transform: uppercase;
 }
 
@@ -175,7 +179,18 @@ helpers */
 
 .nw-header a:nth-child(2) {
     background-color: white;
-    color: var(--color-red);
+    color: var(--red);
+}
+
+.final-sections h4 {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.final-sections h5 {
+    font: bold 17px/21px "Roboto Condensed",sans-serif;
 }
 
 
@@ -214,7 +229,7 @@ Menu-bar */
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: var(--color-pink);
+    background-color: var(--pink);
     margin: 6px 0;
     transition: 0.4s;
 }
