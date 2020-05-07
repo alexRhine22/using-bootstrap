@@ -21,18 +21,17 @@
 <body>
   <nav class="sticky-top bg--red nw-header">
     <div class="container-fluid p-2">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-6">
+      <div class="row">
+        <div class="col-12 d-inline-flex align-items-center justify-content-between">
           <h1>Newsweek</h1>
-        </div>
-
-        <div class="col-6 d-inline-flex">
-          <a href="#">sign in</a>
-          <a href="#">subscribe</a>
-          <div id="menu-btn" class="nw-menu-btn">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+          <div class="d-inline-flex">
+            <a href="#">sign in</a>
+            <a href="#">subscribe</a>
+            <div id="menu-btn" class="nw-menu-btn">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -332,12 +331,12 @@
           <div class="row no-gutters">
             <div class="col-4">
               <img class="img-fluid"
-              src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&amp;h=63&amp;f=32ea83f1b038fbd9ed3672a1db3ffff0"
-              alt="Robert Walker">
+                src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&amp;h=63&amp;f=32ea83f1b038fbd9ed3672a1db3ffff0"
+                alt="Robert Walker">
             </div>
             <div class="col-8">
               <h5 class="latest-news-title">We're Moving Mountains to Fight Coronavirus. Why Not Climate Change?</h5>
-            <h6 class="author-name">By Robert Walker</h6>
+              <h6 class="author-name">By Robert Walker</h6>
             </div>
           </div>
 
@@ -472,14 +471,14 @@
 
     <div class="row">
       <hr>
-      <div class="col-3">
+      <div class="col-12 col-lg-3">
         <img class="img-fluid"
           src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=360&amp;h=480&amp;q=90&amp;f=aa6329ca3fcf4bd58f2da596650d190c"
           alt="May 01, 2020 Cover">
         <a href="#none">SEE ALL FEATURES</a>
       </div>
 
-      <div class="col-3">
+      <div class="col-12 col-lg-3">
         <img class="img-fluid"
           src="https://d.newsweek.com/en/full/1582382/fe-whitmer-banner.jpg?w=466&amp;h=311&amp;l=52&amp;t=45&amp;q=90&amp;f=8e32ab6b0456788b57a6b9ebd6b281bf"
           alt="FE_Whitmer_Banner">
@@ -490,7 +489,7 @@
         <h4>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</h4>
       </div>
 
-      <div class="col-3">
+      <div class="col-12 col-lg-3">
         <img class="img-fluid"
           src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac"
           alt="FE_Whitmer_Q&amp;A">
@@ -501,7 +500,7 @@
         <h4>Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And More</h4>
       </div>
 
-      <div class="col-3">
+      <div class="col-12 col-lg-3">
         <img class="img-fluid"
           src="https://d.newsweek.com/en/full/1579624/bronx-nyc-hospital-tent-coronavirus-march-2020.jpg?w=466&amp;h=311&amp;q=90&amp;f=36a1e5404c7d245dc3d11e18ba778436"
           alt="Bronx, NYC, hospital tent, coronavirus, March 2020">
@@ -1068,16 +1067,18 @@
       </div>
 
       <div class="col-4">
-          <div class="row">
-            <div class="col-6">
-              <img class="img-fluid" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="" height="100%">
-            </div>
-            <div class="col-6">
-              <h5>The Starting 5</h5>
-              <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-              <button>SIGN UP</button>
-            </div>
+        <div class="row">
+          <div class="col-6">
+            <img class="img-fluid"
+              src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
+              alt="" height="100%">
           </div>
+          <div class="col-6">
+            <h5>The Starting 5</h5>
+            <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+            <button>SIGN UP</button>
+          </div>
+        </div>
       </div>
   </section>
   <!--                        -->
@@ -1132,7 +1133,6 @@
     crossorigin="anonymous"></script>
 
   <script>
-
     var menuBtn = document.getElementById('menu-btn');
 
     menuBtn.addEventListener('click', function () {
