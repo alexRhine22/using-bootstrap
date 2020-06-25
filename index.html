@@ -1,1145 +1,1607 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:400,600"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:400,600" rel="stylesheet">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- MY CSS -->
-  <link rel="stylesheet" href="style.css">
+    <title>
+      Newsweek | Clone - News, Analysis, Polictics, Business, Technology
+    </title>
+  </head>
 
-  <title>Newsweek | Clone - News, Analysis, Polictics, Business, Technology</title>
-</head>
-
-<body>
-  <nav class="sticky-top bg--red nw-header">
-    <div class="container-fluid p-2">
-      <div class="row">
-        <div class="col-12 d-inline-flex align-items-center justify-content-between">
-          <h1>Newsweek</h1>
-          <div class="d-inline-flex">
-            <a href="#">sign in</a>
-            <a href="#">subscribe</a>
-            <div id="menu-btn" class="nw-menu-btn">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
+  <body>
+    <nav class="sticky-top bg--red nw-header">
+      <div class="container-fluid p-2">
+        <div class="row">
+          <div
+            class="col-12 d-inline-flex align-items-center justify-content-between"
+          >
+            <h1>Newsweek</h1>
+            <div class="d-inline-flex">
+              <a href="#">login</a>
+              <a href="#">subscribe</a>
+              <div id="menu-btn" class="nw-menu-btn">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <div class="container-lg bg--white">
-    <div class="row no-gutters">
+    <div class="container-lg bg--white">
+      <div class="row no-gutters">
+        <!-- *********** -->
+        <!-- LEFT COLUMN -->
+        <!-- *********** -->
 
-      <!-- *********** -->
-      <!-- LEFT COLUMN -->
-      <!-- *********** -->
+        <!-- SECTION: FEATURED STORIES -->
+        <aside class="order-2 col-lg-3 order-lg-1">
+          <div class="container">
+            <h3 class="section-title">featured stories</h3>
+            <img
+              class="img-fluid"
+              src="https://d.newsweek.com/en/full/1583792/gov-andrew-cuomo-press-briefing-april-2020.jpg?w=397"
+              alt="gov andrew cuomo press briefing april 2020"
+            />
+            <h4 class="story-title">
+              Governors Could Get $500 Billion in Coronavirus Aid—If Bill Passes
+              Congress
+            </h4>
+            <p class="story-content">
+              The Cassidy-Menendez proposal would create a $500 billion fund to
+              help state and local governments respond to the coronavirus
+              pandemic.
+            </p>
 
-      <!-- SECTION: FEATURED STORIES -->
-      <aside class="order-2 col-lg-3 order-lg-1">
-        <div class="container">
-          <h3 class="section-title">featured stories</h3>
-          <img class="img-fluid"
-            src="https://d.newsweek.com/en/full/1583792/gov-andrew-cuomo-press-briefing-april-2020.jpg?w=397"
-            alt="gov andrew cuomo press briefing april 2020">
-          <h4 class="story-title">Governors Could Get $500 Billion in Coronavirus Aid—If Bill Passes Congress</h4>
-          <p class="story-content">The Cassidy-Menendez proposal would create a $500 billion fund to help state and
-            local governments respond to the coronavirus pandemic.</p>
+            <img
+              class="img-fluid"
+              src="https://d.newsweek.com/en/full/1583856/gretchen-whitmer.jpg?w=397&amp;h=265&amp;q=90&amp;f=0fbfd8c82fe46afde8de34c93238d14f"
+              alt="gretchen whitmer"
+            />
+            <h4 class="story-title">
+              Las Vegas Mayor Says City and Casinos Should Reopen
+            </h4>
+            <p class="story-content">
+              On Wednesday, Las Vegas Mayor Carolyn Goodman said that she wanted
+              to reopen the city and casinos, despite the number of coronavirus
+              cases and deaths in the state.
+            </p>
 
-          <img class="img-fluid"
-            src="https://d.newsweek.com/en/full/1583856/gretchen-whitmer.jpg?w=397&amp;h=265&amp;q=90&amp;f=0fbfd8c82fe46afde8de34c93238d14f"
-            alt="gretchen whitmer">
-          <h4 class="story-title">Las Vegas Mayor Says City and Casinos Should Reopen</h4>
-          <p class="story-content">On Wednesday, Las Vegas Mayor Carolyn Goodman said that she wanted to reopen the city
-            and casinos, despite the number of coronavirus cases and deaths in the state.</p>
+            <img
+              class="img-fluid"
+              src="https://d.newsweek.com/en/full/1583786/trump-white-house.jpg?w=397&amp;h=265&amp;q=90&amp;f=548942dde9509e22fbb23bb3406ae59e"
+              alt="Trump White House"
+            />
+            <h4 class="story-title">
+              Coronavirus Changed Most Americans' Minds On Immigration, Polls
+              Show
+            </h4>
+            <p class="story-content">
+              The coronavirus has changed a lot about life in the United States
+              and the attitudes of its citizens. One that has changed is
+              Americans' appetites for major restrictions on immigration from
+              other countries, an analysis of polls shows.
+            </p>
 
-          <img class="img-fluid"
-            src="https://d.newsweek.com/en/full/1583786/trump-white-house.jpg?w=397&amp;h=265&amp;q=90&amp;f=548942dde9509e22fbb23bb3406ae59e"
-            alt="Trump White House">
-          <h4 class="story-title">Coronavirus Changed Most Americans' Minds On Immigration, Polls Show</h4>
-          <p class="story-content">The coronavirus has changed a lot about life in the United States and the attitudes
-            of its citizens. One that has changed is Americans' appetites for major restrictions on immigration from
-            other countries, an analysis of polls shows.</p>
+            <img
+              class="img-fluid"
+              src="https://d.newsweek.com/en/full/1583839/online-fraud-scams.jpg?w=397&amp;h=265&amp;q=90&amp;f=9b60377fe198121611cddf179bea0f98"
+              alt="Online fraud and scams"
+            />
+            <h4 class="story-title">
+              FCC Warns of Text Scam Offering $30K in Coronavirus Relief
+            </h4>
+            <p class="story-content">
+              The scam is also just one of many that have proliferated during
+              the epidemic, preying on people's financial and health fears.
+            </p>
 
-          <img class="img-fluid"
-            src="https://d.newsweek.com/en/full/1583839/online-fraud-scams.jpg?w=397&amp;h=265&amp;q=90&amp;f=9b60377fe198121611cddf179bea0f98"
-            alt="Online fraud and scams">
-          <h4 class="story-title">FCC Warns of Text Scam Offering $30K in Coronavirus Relief</h4>
-          <p class="story-content">The scam is also just one of many that have proliferated during the epidemic, preying
-            on people's financial and health fears.</p>
+            <img
+              class="img-fluid"
+              src="https://d.newsweek.com/en/full/1583747/trump-briefing-april-21.jpg?w=397&amp;h=265&amp;q=90&amp;f=a7e988ff76ff7dd8fde92b62112e8bf0"
+              alt="Trump briefing April 21"
+            />
+            <h4 class="story-title">
+              Trump Orders Some Immigration Suspended, Claims Order Blocks All
+              Immigrants
+            </h4>
+            <p class="story-content">
+              The president signed an order which suspends the issuance of new
+              Green Cards to anyone outside the U.S. for the next two months.
+            </p>
+          </div>
+        </aside>
+        <!-- END SECTION: FEATURED STORIES -->
 
-          <img class="img-fluid"
-            src="https://d.newsweek.com/en/full/1583747/trump-briefing-april-21.jpg?w=397&amp;h=265&amp;q=90&amp;f=a7e988ff76ff7dd8fde92b62112e8bf0"
-            alt="Trump briefing April 21">
-          <h4 class="story-title">Trump Orders Some Immigration Suspended, Claims Order Blocks All Immigrants</h4>
-          <p class="story-content">The president signed an order which suspends the issuance of new Green Cards to
-            anyone outside the U.S. for the next two months.</p>
+        <!-- ************* -->
+        <!-- MIDDLE COLUMN -->
+        <!-- ************* -->
+        <main class="order-1 col-lg-6">
+          <div>
+            <!-- SECTION: TOP STORIES -->
+            <section class="container">
+              <h3 class="section-title">top story</h3>
+              <img
+                class="img-fluid"
+                src="https://d.newsweek.com/en/full/1583798/iran-navy-irgc-persian-gulf-encounter.jpg?w=591&amp;h=364&amp;f=a116cf0c46fa002bc709a4cff1c4baa4"
+                alt="iran, navy, irgc, persian, gulf, encounter"
+              />
+              <h4 class="story-title">
+                Iran Warns Donald Trump It Will 'Defend Its Territory' After
+                Navy Threat
+              </h4>
+              <p class="story-content">
+                "In the midst of a global coronavirus pandemic when all
+                attentions worldwide is to combat this menace, the question is
+                what the U.S. military is doing in Persian Gulf waters, 7,000
+                miles from home," an Iranian diplomat told Newsweek.
+              </p>
+              <hr />
 
-        </div>
-      </aside>
-      <!-- END SECTION: FEATURED STORIES -->
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583650/irgc-iran-navy-persian-gulf-encounter.jpg?w=95&amp;h=95&amp;l=0&amp;t=0&amp;f=a475c7405b6046855f42c8be8e46ce9d"
+                  alt="irgc, iran, navy, persian, gulf, encounter"
+                />
+                <h6 class="more-stories-title">
+                  Trump Threatens to 'Shoot Down, Destroy' Iran Ships Amid Gulf
+                  Tensions
+                </h6>
+                <p class="story-content">
+                  The Persian Gulf has featured frictions throughout the U.S.
+                  and Iran's four-decade feud but the rivalry has taken on a
+                  new, more violent dimension in recent months.
+                </p>
+              </div>
+            </section>
+            <!-- END SECTION: TOP STORIES -->
 
+            <!-- SECTION: HEROES OF THE PANDEMIC -->
+            <section class="container">
+              <h3 class="section-title">heroes of the pandemic</h3>
+              <div class="row">
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
+                    alt="Zoe Monterola founder of Six Feet Supplies"
+                  />
+                  <h5 class="other-story-title">
+                    Teenagers Shop for the Vulnerable During Coronavirus
+                    Emergency
+                  </h5>
+                  <p class="other-story-content">
+                    "I almost cried," said a user of Six Feet Supplies, a
+                    charity started by teenagers who shop for those susceptible
+                    to COVID-19.
+                  </p>
+                </div>
 
-      <!-- ************* -->
-      <!-- MIDDLE COLUMN -->
-      <!-- ************* -->
-      <main class="order-1 col-lg-6">
-        <div>
-          <!-- SECTION: TOP STORIES -->
-          <section class="container">
-            <h3 class="section-title">top story</h3>
-            <img class="img-fluid"
-              src="https://d.newsweek.com/en/full/1583798/iran-navy-irgc-persian-gulf-encounter.jpg?w=591&amp;h=364&amp;f=a116cf0c46fa002bc709a4cff1c4baa4"
-              alt="iran, navy, irgc, persian, gulf, encounter">
-            <h4 class="story-title">Iran Warns Donald Trump It Will 'Defend Its Territory' After Navy Threat</h4>
-            <p class="story-content">"In the midst of a global coronavirus pandemic when all attentions worldwide is to
-              combat this menace, the question is what the U.S. military is doing in Persian Gulf waters, 7,000 miles
-              from
-              home," an Iranian diplomat told Newsweek.</p>
-            <hr>
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1581628/sandra-sacco-face-masks-coronavirus.jpg?w=397&amp;h=397&amp;f=7892f6ddd82131592228622320b031ef"
+                    alt="sandra sacco, face masks, coronavirus"
+                  />
+                  <h5 class="other-story-title">
+                    Tennessee Group Makes Coronavirus Face Masks for Local,
+                    International Use
+                  </h5>
+                  <p class="other-story-content">
+                    "We're not selling anything," Sacco said Tuesday. "Every
+                    single bit of this is donation-only or nothing."
+                  </p>
+                </div>
 
-            <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583650/irgc-iran-navy-persian-gulf-encounter.jpg?w=95&amp;h=95&amp;l=0&amp;t=0&amp;f=a475c7405b6046855f42c8be8e46ce9d"
-                alt="irgc, iran, navy, persian, gulf, encounter">
-              <h6 class="more-stories-title">Trump Threatens to 'Shoot Down, Destroy' Iran Ships Amid Gulf Tensions</h6>
-              <p class="story-content">The Persian Gulf has featured frictions throughout the U.S. and Iran's
-                four-decade
-                feud but the rivalry has taken on a new, more violent dimension in recent months.</p>
-            </div>
-          </section>
-          <!-- END SECTION: TOP STORIES -->
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1582032/riya-ortiz-damayan-migrant-workers-association.jpg?w=397&amp;h=397&amp;f=53de83c7597de80f95461e7b0774eada"
+                    alt="riya, ortiz, damayan, migrant, workers, association"
+                  />
+                  <h5 class="other-story-title">
+                    Organizer Helps Rebuild New York's Filipino Community Hit by
+                    COVID-19
+                  </h5>
+                  <p class="other-story-content">
+                    "When this whole thing started what kept me up at night is
+                    the possibility of mass casualties in our community," Riya
+                    Ortiz told Newsweek.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <!-- END SECTION: HEROES OF THE PANDEMIC -->
 
+            <!-- SECTION: CULTURE & TRAVEL -->
+            <section class="container">
+              <h3 class="section-title">Culture & Travel</h3>
+              <div class="row">
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
+                    alt="Jane Goodall in Gombe National Park"
+                  />
+                  <h5 class="other-story-title">
+                    A Conversation With Jane Goodall on the Pandemic and Hope
+                    for the Planet
+                  </h5>
+                  <p class="other-story-content">
+                    Goodall talks to Newsweek about the pandemic, her new
+                    documentary and the most important message she hopes her
+                    life's work leaves behind.
+                  </p>
+                </div>
 
-          <!-- SECTION: HEROES OF THE PANDEMIC -->
-          <section class="container">
-            <h3 class="section-title">heroes of the pandemic</h3>
-            <div class="row">
-              <div class="col-4">
-                <img class="img-fluid"
-                  src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
-                  alt="Zoe Monterola founder of Six Feet Supplies">
-                <h5 class="other-story-title">Teenagers Shop for the Vulnerable During Coronavirus Emergency</h5>
-                <p class="other-story-content">"I almost cried," said a user of Six Feet Supplies, a charity started by
-                  teenagers who shop for those susceptible to COVID-19.</p>
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1583367/susan-portnoy-1.jpg?w=397&amp;h=397&amp;f=9f78c9fa9d117991919b49684a5d9140"
+                    alt="Susan Portnoy 1"
+                    title="Susan Portnoy 1"
+                  />
+                  <h5 class="other-story-title">
+                    13 Spectacular Photos of the Planet From the Lens of a
+                    Travel Photographer
+                  </h5>
+                  <p class="other-story-content">
+                    As we celebrate the 50th anniversary of Earth Day, a travel
+                    photographer looks back on her favorite photos she's taken
+                    around the world.
+                  </p>
+                </div>
+
+                <div class="col-4">
+                  <img
+                    class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1552272/cul-map-underwater-03.jpg?w=397&amp;h=397&amp;f=38a37908ac75c7b800c8c3306baa948d"
+                    alt="CUL_Map_Underwater_03"
+                  />
+                  <h5 class="other-story-title">
+                    These Underwater Art Exhibits Are Helping to Save Our Oceans
+                  </h5>
+                  <p class="other-story-content">
+                    British eco-artist Jason deCaires Taylor creates eerie
+                    undersea worlds that blend sculpture and marine life,
+                    creating havens for coral to regenerate and new ecosystems
+                    to thrive.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <!-- END SECTION: CULTURE & TRAVEL -->
+
+            <!-- SECTION: MORE STORIES -->
+            <section class="container">
+              <h3 class="section-title">MORE STORIES</h3>
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583577/china-north-korea-xi-jinping-kim.jpg?w=95&amp;h=95&amp;f=bf33672041c49041e3472f9fd9a10ad8"
+                  alt="China, North Korea, Xi Jinping, Kim "
+                  title="China, North Korea, Xi Jinping, Kim "
+                />
+                <h6 class="more-stories-title">
+                  'China's Worst Nightmare': Why Kim Jong Un's Health is a New
+                  Headache
+                </h6>
+                <p class="story-content">
+                  Reports of Kim's deteriorating health will be unwelcome to the
+                  Chinese president, who is already grappling with diplomatic
+                  fallout from the coronavirus pandemic.
+                </p>
+              </div>
+              <hr />
+
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583710/congress-phase-4-economic-stimulus.jpg?w=95&amp;h=95&amp;f=f5ab26276a73234ce554ec2e1281f393"
+                  alt="Congress phase 4 economic stimulus"
+                />
+                <h6 class="more-stories-title">
+                  Americans Shouldn't Expect More Money from Congress Anytime
+                  Soon: McConnell
+                </h6>
+                <p class="story-content">
+                  Citing the soaring national debt from several coronavirus
+                  relief packages, Mitch McConnell says another one won't be
+                  passing his chamber anytime soon.
+                </p>
+              </div>
+              <hr />
+
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583645/hungary.jpg?w=95&amp;h=95&amp;l=0&amp;t=0&amp;f=7d97214369bba197d75d3712dc37db3e"
+                  alt="Hungary"
+                  title="Hungary"
+                />
+                <h6 class="more-stories-title">
+                  Governments Accused Of Using Pandemic To Threaten Human Rights
+                </h6>
+                <p class="story-content">
+                  "These are difficult times for everyone, but all restrictions
+                  should be rooted in respect for human dignity," said David
+                  Kode of CIVICUS.
+                </p>
+              </div>
+              <hr />
+
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583548/georgia-governor-brian-kemp.jpg?w=95&amp;h=95&amp;f=9fba112852109aff0ec6f23633dcd6b2"
+                  alt="Georgia governor Brian Kemp "
+                />
+                <h6 class="more-stories-title">
+                  Georgia Governor Kemp Defends Reopening of State
+                </h6>
+                <p class="story-content">
+                  Fox News host Martha MacCallum told Gov. Brian Kemp: "I hope
+                  that you are making the right decision."
+                </p>
+              </div>
+              <hr />
+
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583626/joe-biden.jpg?w=95&amp;h=95&amp;l=0&amp;t=0&amp;f=e3f02386531f423d345ce1af74b1598c"
+                  alt="Joe Biden"
+                />
+                <h6 class="more-stories-title">
+                  New Poll Shows Joe Biden Beating Donald Trump in General
+                  Election
+                </h6>
+                <p class="story-content">
+                  Biden has seen his lead over Trump grow significantly over the
+                  past couple weeks, according to the new survey data.
+                </p>
               </div>
 
+              <hr />
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583433/los-angeles.jpg?w=95&amp;h=95&amp;f=cb55b4608de08d1f75bf0995e8fca8ff"
+                  alt="Los Angeles"
+                />
+                <h6 class="more-stories-title">
+                  Earth Day 2020: Ways the Planet Has Changed Due to COVID-19
+                </h6>
+                <p class="story-content">
+                  "The pandemic is a reminder that there is no separation
+                  between humans and the environment," researcher Karen O'Neill
+                  said.
+                </p>
+              </div>
+
+              <hr />
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1576242/nfl-roger-goodell.jpg?w=95&amp;h=95&amp;f=7dae4d978f64736c09fdc6d445579995"
+                  alt="NFL, Roger Goodell"
+                  title="NFL, Roger Goodell"
+                />
+                <h6 class="more-stories-title">
+                  NFL Draft 2020: How Will It Work During the Coronavirus
+                  Lockdown?
+                </h6>
+                <p class="story-content">
+                  With teams and players participating remotely the 2020 NFL
+                  draft will look completely different from previous editions,
+                  but how will it work?
+                </p>
+              </div>
+
+              <hr />
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583745/north-korea-coronavirus-covid-19-pyongyang.jpg?w=95&amp;h=95&amp;f=e5942fcdc3a6f03a69a7b4a7e4ecd51e"
+                  alt="north, korea, coronavirus, covid-19, pyongyang"
+                />
+                <h6 class="more-stories-title">
+                  North Korea Admits to 'Hardships' As Kim Jong Un Remains Out
+                  of Public Eye
+                </h6>
+                <p class="story-content">
+                  North Korea's official Rodong Sinmun newspaper reported that
+                  the country does "have some [areas] lagging behind others so
+                  far. It is also true that we are going through hardships."
+                </p>
+              </div>
+
+              <hr />
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583650/irgc-iran-navy-persian-gulf-encounter.jpg?w=95&amp;h=95&amp;l=0&amp;t=0&amp;f=a475c7405b6046855f42c8be8e46ce9d"
+                  alt="irgc, iran, navy, persian, gulf, encounter"
+                />
+                <h6 class="more-stories-title">
+                  Trump Threatens to 'Shoot Down, Destroy' Iran Ships Amid Gulf
+                  Tensions
+                </h6>
+                <p class="story-content">
+                  The Persian Gulf has featured frictions throughout the U.S.
+                  and Iran's four-decade feud but the rivalry has taken on a
+                  new, more violent dimension in recent months.
+                </p>
+              </div>
+
+              <hr />
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583675/coronavirus.jpg?w=95&amp;h=95&amp;f=751f8e03e1e15fd7ea02b2f1294f9530"
+                  alt="coronavirus "
+                />
+                <h6 class="more-stories-title">
+                  Coronavirus Develops Mutations That Could Change How It Causes
+                  Disease
+                </h6>
+                <p class="story-content">
+                  Research from China identified 33 mutations of the SARS-CoV-2
+                  virus, 19 of which were new.
+                </p>
+              </div>
+
+              <hr />
+              <div>
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583815/tim-walz.jpg?w=95&amp;h=95&amp;f=e1f7899d3d3b1c7160419540645ccec5"
+                  alt="Tim Walz"
+                />
+                <h6 class="more-stories-title">
+                  Minnesota Will Soon Be Able to Test Every Symptomatic Person
+                  for Covid-19
+                </h6>
+                <p class="story-content">
+                  Gov. Tim Walz announced the state will conduct up to 20,000
+                  coronavirus tests per day on symptomatic individuals.
+                </p>
+              </div>
+            </section>
+            <!-- END SECTION: MORE STORIES -->
+          </div>
+        </main>
+
+        <!-- ************ -->
+        <!-- RIGHT COLUMN -->
+        <!-- ************ -->
+        <aside class="order-3 col-lg-3">
+          <div class="container">
+            <!-- SECTION: OPINIONS -->
+            <h3 class="section-title">opinion</h3>
+            <hr />
+            <div class="row no-gutters">
               <div class="col-4">
-                <img class="img-fluid"
-                  src="https://d.newsweek.com/en/full/1581628/sandra-sacco-face-masks-coronavirus.jpg?w=397&amp;h=397&amp;f=7892f6ddd82131592228622320b031ef"
-                  alt="sandra sacco, face masks, coronavirus">
-                <h5 class="other-story-title">Tennessee Group Makes Coronavirus Face Masks for Local, International Use
+                <img
+                  class="img-fluid"
+                  src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&amp;h=63&amp;f=32ea83f1b038fbd9ed3672a1db3ffff0"
+                  alt="Robert Walker"
+                />
+              </div>
+              <div class="col-8">
+                <h5 class="latest-news-title">
+                  We're Moving Mountains to Fight Coronavirus. Why Not Climate
+                  Change?
                 </h5>
-                <p class="other-story-content">"We're not selling anything," Sacco said Tuesday. "Every single bit of
-                  this is donation-only or nothing."</p>
-              </div>
-
-              <div class="col-4">
-                <img class="img-fluid"
-                  src="https://d.newsweek.com/en/full/1582032/riya-ortiz-damayan-migrant-workers-association.jpg?w=397&amp;h=397&amp;f=53de83c7597de80f95461e7b0774eada"
-                  alt="riya, ortiz, damayan, migrant, workers, association">
-                <h5 class="other-story-title">Organizer Helps Rebuild New York's Filipino Community Hit by COVID-19</h5>
-                <p class="other-story-content">"When this whole thing started what kept me up at night is the
-                  possibility of mass casualties in our community," Riya Ortiz told Newsweek.</p>
+                <h6 class="author-name">By Robert Walker</h6>
               </div>
             </div>
-          </section>
-          <!-- END SECTION: HEROES OF THE PANDEMIC -->
 
-
-          <!-- SECTION: CULTURE & TRAVEL -->
-          <section class="container">
-            <h3 class="section-title">Culture & Travel</h3>
-            <div class="row">
-              <div class="col-4">
-                <img class="img-fluid"
-                  src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
-                  alt="Jane Goodall in Gombe National Park">
-                <h5 class="other-story-title">A Conversation With Jane Goodall on the Pandemic and Hope for the Planet
-                </h5>
-                <p class="other-story-content">Goodall talks to Newsweek about the pandemic, her new documentary and the
-                  most important message she hopes her life's work leaves behind.</p>
-              </div>
-
-              <div class="col-4">
-                <img class="img-fluid"
-                  src="https://d.newsweek.com/en/full/1583367/susan-portnoy-1.jpg?w=397&amp;h=397&amp;f=9f78c9fa9d117991919b49684a5d9140"
-                  alt="Susan Portnoy 1" title="Susan Portnoy 1">
-                <h5 class="other-story-title">13 Spectacular Photos of the Planet From the Lens of a Travel Photographer
-                </h5>
-                <p class="other-story-content">As we celebrate the 50th anniversary of Earth Day, a travel photographer
-                  looks back on her favorite photos she's taken around the world.</p>
-              </div>
-
-              <div class="col-4">
-                <img class="img-fluid"
-                  src="https://d.newsweek.com/en/full/1552272/cul-map-underwater-03.jpg?w=397&amp;h=397&amp;f=38a37908ac75c7b800c8c3306baa948d"
-                  alt="CUL_Map_Underwater_03">
-                <h5 class="other-story-title">These Underwater Art Exhibits Are Helping to Save Our Oceans</h5>
-                <p class="other-story-content">British eco-artist Jason deCaires Taylor creates eerie undersea worlds
-                  that blend sculpture and marine life, creating havens for coral to regenerate and new ecosystems to
-                  thrive.</p>
-              </div>
-            </div>
-          </section>
-          <!-- END SECTION: CULTURE & TRAVEL -->
-
-
-          <!-- SECTION: MORE STORIES -->
-          <section class="container">
-            <h3 class="section-title">MORE STORIES</h3>
+            <hr />
             <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583577/china-north-korea-xi-jinping-kim.jpg?w=95&amp;h=95&amp;f=bf33672041c49041e3472f9fd9a10ad8"
-                alt="China, North Korea, Xi Jinping, Kim " title="China, North Korea, Xi Jinping, Kim ">
-              <h6 class="more-stories-title">'China's Worst Nightmare': Why Kim Jong Un's Health is a New Headache</h6>
-              <p class="story-content">Reports of Kim's deteriorating health will be unwelcome to the Chinese president,
-                who is already
-                grappling with diplomatic fallout from the coronavirus pandemic.</p>
-            </div>
-            <hr>
-
-            <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583710/congress-phase-4-economic-stimulus.jpg?w=95&amp;h=95&amp;f=f5ab26276a73234ce554ec2e1281f393"
-                alt="Congress phase 4 economic stimulus">
-              <h6 class="more-stories-title">Americans Shouldn't Expect More Money from Congress Anytime Soon: McConnell
-              </h6>
-              <p class="story-content">Citing the soaring national debt from several coronavirus relief packages, Mitch
-                McConnell says another
-                one won't be passing his chamber anytime soon.</p>
-            </div>
-            <hr>
-
-            <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583645/hungary.jpg?w=95&amp;h=95&amp;l=0&amp;t=0&amp;f=7d97214369bba197d75d3712dc37db3e"
-                alt="Hungary" title="Hungary">
-              <h6 class="more-stories-title">Governments Accused Of Using Pandemic To Threaten Human Rights </h6>
-              <p class="story-content">"These are difficult times for everyone, but all restrictions should be rooted in
-                respect for human
-                dignity," said David Kode of CIVICUS.</p>
-            </div>
-            <hr>
-
-            <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583548/georgia-governor-brian-kemp.jpg?w=95&amp;h=95&amp;f=9fba112852109aff0ec6f23633dcd6b2"
-                alt="Georgia governor Brian Kemp ">
-              <h6 class="more-stories-title">Georgia Governor Kemp Defends Reopening of State</h6>
-              <p class="story-content">Fox News host Martha MacCallum told Gov. Brian Kemp: "I hope that you are making
-                the right decision."</p>
-            </div>
-            <hr>
-
-            <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583626/joe-biden.jpg?w=95&amp;h=95&amp;l=0&amp;t=0&amp;f=e3f02386531f423d345ce1af74b1598c"
-                alt="Joe Biden">
-              <h6 class="more-stories-title">New Poll Shows Joe Biden Beating Donald Trump in General Election</h6>
-              <p class="story-content">Biden has seen his lead over Trump grow significantly over the past couple weeks,
-                according to the new
-                survey data.</p>
+              <img
+                class="img-fluid"
+                src="https://d.newsweek.com/en/full/1583770/judith-enck.png?w=63&amp;h=63&amp;f=bc2e1df765b799215e23cdb05cef7e28"
+                alt="judith-enck"
+              />
+              <h5 class="latest-news-title">
+                No, the Pandemic Isn't an Excuse to Go Back to Single-Use
+                Plastics
+              </h5>
+              <h6 class="author-name">By Judith Enck</h6>
             </div>
 
-            <hr>
+            <hr />
             <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583433/los-angeles.jpg?w=95&amp;h=95&amp;f=cb55b4608de08d1f75bf0995e8fca8ff"
-                alt="Los Angeles">
-              <h6 class="more-stories-title">Earth Day 2020: Ways the Planet Has Changed Due to COVID-19</h6>
-              <p class="story-content">"The pandemic is a reminder that there is no separation between humans and the
-                environment," researcher Karen O'Neill said.</p>
+              <img
+                class="img-fluid"
+                src="https://d.newsweek.com/en/full/1583630/toyin-saraki.png?w=63&amp;h=63&amp;l=0&amp;t=0&amp;f=d0a304e4515381b0b41fe539daffdc4b"
+                alt="Toyin Saraki"
+              />
+              <h5 class="latest-news-title">
+                Now More Than Ever, the World Needs a Strong WHO
+              </h5>
+              <h6 class="author-name">By Toyin Saraki</h6>
             </div>
 
-            <hr>
-            <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1576242/nfl-roger-goodell.jpg?w=95&amp;h=95&amp;f=7dae4d978f64736c09fdc6d445579995"
-                alt="NFL, Roger Goodell" title="NFL, Roger Goodell">
-              <h6 class="more-stories-title">NFL Draft 2020: How Will It Work During the Coronavirus Lockdown?</h6>
-              <p class="story-content">With teams and players participating remotely the 2020 NFL draft will look
-                completely different from previous editions, but how will it work?</p>
-            </div>
+            <hr />
 
-            <hr>
-            <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583745/north-korea-coronavirus-covid-19-pyongyang.jpg?w=95&amp;h=95&amp;f=e5942fcdc3a6f03a69a7b4a7e4ecd51e"
-                alt="north, korea, coronavirus, covid-19, pyongyang">
-              <h6 class="more-stories-title">North Korea Admits to 'Hardships' As Kim Jong Un Remains Out of Public Eye
-              </h6>
-              <p class="story-content">North Korea's official Rodong Sinmun newspaper reported that the country does
-                "have
-                some [areas] lagging behind others so far. It is also true that we are going through hardships."</p>
-            </div>
-
-            <hr>
-            <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583650/irgc-iran-navy-persian-gulf-encounter.jpg?w=95&amp;h=95&amp;l=0&amp;t=0&amp;f=a475c7405b6046855f42c8be8e46ce9d"
-                alt="irgc, iran, navy, persian, gulf, encounter">
-              <h6 class="more-stories-title">Trump Threatens to 'Shoot Down, Destroy' Iran Ships Amid Gulf Tensions</h6>
-              <p class="story-content">The Persian Gulf has featured frictions throughout the U.S. and Iran's
-                four-decade
-                feud but the rivalry has taken on a new, more violent dimension in recent months.</p>
-            </div>
-
-            <hr>
-            <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583675/coronavirus.jpg?w=95&amp;h=95&amp;f=751f8e03e1e15fd7ea02b2f1294f9530"
-                alt="coronavirus ">
-              <h6 class="more-stories-title">Coronavirus Develops Mutations That Could Change How It Causes Disease</h6>
-              <p class="story-content">Research from China identified 33 mutations of the SARS-CoV-2 virus, 19 of which
-                were new.</p>
-            </div>
-
-            <hr>
-            <div>
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583815/tim-walz.jpg?w=95&amp;h=95&amp;f=e1f7899d3d3b1c7160419540645ccec5"
-                alt="Tim Walz">
-              <h6 class="more-stories-title">Minnesota Will Soon Be Able to Test Every Symptomatic Person for Covid-19
-              </h6>
-              <p class="story-content">Gov. Tim Walz announced the state will conduct up to 20,000 coronavirus tests per
-                day on symptomatic individuals.</p>
-            </div>
-          </section>
+            <img
+              class="img-fluid"
+              src="https://d.newsweek.com/en/full/1583193/zachary-karabell.png?w=63&amp;h=63&amp;f=479a178e74d4cc4bd4d4f77322f982c9"
+              alt="Zachary-Karabell"
+            />
+            <h5 class="latest-news-title">We Need to Talk About Death</h5>
+            <h6 class="author-name">By Zachary Karabell</h6>
+          </div>
           <!-- END SECTION: MORE STORIES -->
+
+          <!-- SECTION: THE DEBATE -->
+          <section class="container">
+            <h3 class="section-title">The debate</h3>
+            <div class="red-line"></div>
+            <div>
+              <img
+                class="img-fluid"
+                src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7"
+                alt="trump-pence"
+              />
+              <h5 class="debate-title">
+                Trump's Right. The WHO Is Not Fit for Purpose
+              </h5>
+              <h6 class="author-name">By Nigel Farage</h6>
+              <img
+                class="img-fluid"
+                src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&amp;h=150&amp;f=2ae37ecc11a3397b627c243707faa3cb"
+                alt="nigel-farage"
+              />
+            </div>
+
+            <div class="blue-line"></div>
+            <div>
+              <img
+                class="img-fluid"
+                src="https://d.newsweek.com/en/full/1582345/donald-trump.jpg?w=95&amp;h=95&amp;f=e0440aa96094bb88d352743ed52efdc1"
+                alt="Donald Trump"
+              />
+              <h5 class="debate-title">
+                Defunding the WHO Mid-Pandemic Is Lunacy
+              </h5>
+              <h6 class="author-name">By Jamie Metzl</h6>
+              <img
+                class="img-fluid"
+                src="https://d.newsweek.com/en/full/1582307/jamie-metzl.png?w=150&amp;h=150&amp;f=6bb1bbea6ea4958f2df92e02d62be0b1"
+                alt="Jamie Metzl"
+              />
+            </div>
+          </section>
+          <!-- END SECTION: THE DEBATE -->
+
+          <!-- SECTION: LATEST NEWS -->
+          <section class="container">
+            <h3 class="section-title">LATEST NEWS</h3>
+            <div class="row">
+              <div class="col-12">
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583859/steve-siolak.jpg?w=95&amp;h=95&amp;f=fd7419ff4f8d2fa3abdde3b72ceb18d9"
+                  alt="Steve Siolak"
+                />
+                <h5 class="latest-news-title">
+                  How to Join Virtual 2020 NFL Draft Parties For Your Favorite
+                  Team
+                </h5>
+              </div>
+            </div>
+
+            <hr />
+            <div class="row">
+              <div class="col-12">
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583865/greg-abbott.jpg?w=95&amp;h=95&amp;f=87d545afb78d650e9cc645cf55cbb7bc"
+                  alt="greg abbott"
+                />
+                <h5 class="latest-news-title">
+                  Washington Sheriff Refuses to Enforce Governor's Stay-at-Home
+                  Order
+                </h5>
+              </div>
+            </div>
+
+            <hr />
+            <div class="row">
+              <div class="col-12">
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583862/blood-donation.jpg?w=95&amp;h=95&amp;f=a40856cc09e365740af71979e874d939"
+                  alt="blood donation"
+                />
+                <h5 class="latest-news-title">
+                  Fox News poll has Biden leading Trump in Michigan and
+                  Pennsylvania
+                </h5>
+              </div>
+            </div>
+
+            <hr />
+            <div class="row">
+              <div class="col-12">
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583861/hhs-cdc-logo.jpg?w=95&amp;h=95&amp;f=cd80d2caf9d1d72f9e3b6e553bd3bba6"
+                  alt="HHS / CDC Logo"
+                  title="HHS / CDC Logo"
+                />
+                <h5 class="latest-news-title">
+                  Fauci Contradicts Trump on Whether U.S. Will Have Coronavirus
+                  in the Fall
+                </h5>
+              </div>
+            </div>
+
+            <hr />
+            <div class="row">
+              <div class="col-12">
+                <img
+                  class="img-fluid float-left pr-3"
+                  src="https://d.newsweek.com/en/full/1583855/2019-nfl-draft-nashville.jpg?w=95&amp;h=95&amp;f=9d934ac60618eece36d742ba6dea6255"
+                  alt="2019 NFL Draft in Nashville"
+                />
+                <h5 class="latest-news-title">
+                  Televangelist Asks for Financial Help After Hawking Fake
+                  Coronavirus Cure
+                </h5>
+              </div>
+            </div>
+          </section>
+          <!-- END SECTION: LATEST NEWS -->
+        </aside>
+        <!-- END RIGHT COLUMN -->
+      </div>
+    </div>
+
+    <!-- SECTION: IN THE MAGAZINE -->
+    <section class="container-lg bg--white in-mag">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center">IN THE MAGAZINE</h3>
         </div>
-      </main>
+      </div>
+      <hr />
 
-      <!-- ************ -->
-      <!-- RIGHT COLUMN -->
-      <!-- ************ -->
-      <aside class="order-3 col-lg-3">
-        <div class="container">
-          <!-- SECTION: OPINIONS -->
-          <h3 class="section-title">opinion</h3>
-          <hr>
-          <div class="row no-gutters">
-            <div class="col-4">
-              <img class="img-fluid"
-                src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&amp;h=63&amp;f=32ea83f1b038fbd9ed3672a1db3ffff0"
-                alt="Robert Walker">
-            </div>
-            <div class="col-8">
-              <h5 class="latest-news-title">We're Moving Mountains to Fight Coronavirus. Why Not Climate Change?</h5>
-              <h6 class="author-name">By Robert Walker</h6>
-            </div>
-          </div>
-
-          <hr>
-          <div>
-            <img class="img-fluid"
-              src="https://d.newsweek.com/en/full/1583770/judith-enck.png?w=63&amp;h=63&amp;f=bc2e1df765b799215e23cdb05cef7e28"
-              alt="judith-enck">
-            <h5 class="latest-news-title">No, the Pandemic Isn't an Excuse to Go Back to Single-Use Plastics</h5>
-            <h6 class="author-name">By Judith Enck</h6>
-          </div>
-
-          <hr>
-          <div>
-            <img class="img-fluid"
-              src="https://d.newsweek.com/en/full/1583630/toyin-saraki.png?w=63&amp;h=63&amp;l=0&amp;t=0&amp;f=d0a304e4515381b0b41fe539daffdc4b"
-              alt="Toyin Saraki">
-            <h5 class="latest-news-title">Now More Than Ever, the World Needs a Strong WHO </h5>
-            <h6 class="author-name">By Toyin Saraki</h6>
-          </div>
-
-          <hr>
-
-          <img class="img-fluid"
-            src="https://d.newsweek.com/en/full/1583193/zachary-karabell.png?w=63&amp;h=63&amp;f=479a178e74d4cc4bd4d4f77322f982c9"
-            alt="Zachary-Karabell">
-          <h5 class="latest-news-title">We Need to Talk About Death </h5>
-          <h6 class="author-name">By Zachary Karabell</h6>
+      <div class="row">
+        <hr />
+        <div class="col-12 col-lg-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=360&amp;h=480&amp;q=90&amp;f=aa6329ca3fcf4bd58f2da596650d190c"
+            alt="May 01, 2020 Cover"
+          />
+          <a href="#none">SEE ALL FEATURES</a>
         </div>
-        <!-- END SECTION: MORE STORIES -->
 
-
-        <!-- SECTION: THE DEBATE -->
-        <section class="container">
-          <h3 class="section-title">The debate</h3>
-          <div class="red-line"></div>
-          <div>
-            <img class="img-fluid"
-              src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7"
-              alt="trump-pence">
-            <h5 class="debate-title">Trump's Right. The WHO Is Not Fit for Purpose</h5>
-            <h6 class="author-name"> By Nigel Farage</h6>
-            <img class="img-fluid"
-              src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&amp;h=150&amp;f=2ae37ecc11a3397b627c243707faa3cb"
-              alt="nigel-farage">
+        <div class="col-12 col-lg-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1582382/fe-whitmer-banner.jpg?w=466&amp;h=311&amp;l=52&amp;t=45&amp;q=90&amp;f=8e32ab6b0456788b57a6b9ebd6b281bf"
+            alt="FE_Whitmer_Banner"
+          />
+          <div class="section-padding-xs">
+            <span>COVER</span>
+            <a href="">POLITICS</a>
           </div>
+          <h4>
+            Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID
+            Rules
+          </h4>
+        </div>
 
-          <div class="blue-line"></div>
-          <div>
-            <img class="img-fluid"
-              src="https://d.newsweek.com/en/full/1582345/donald-trump.jpg?w=95&amp;h=95&amp;f=e0440aa96094bb88d352743ed52efdc1"
-              alt="Donald Trump">
-            <h5 class="debate-title">Defunding the WHO Mid-Pandemic Is Lunacy</h5>
-            <h6 class="author-name">By Jamie Metzl</h6>
-            <img class="img-fluid"
-              src="https://d.newsweek.com/en/full/1582307/jamie-metzl.png?w=150&amp;h=150&amp;f=6bb1bbea6ea4958f2df92e02d62be0b1"
-              alt="Jamie Metzl">
+        <div class="col-12 col-lg-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac"
+            alt="FE_Whitmer_Q&amp;A"
+          />
+          <div class="section-padding-xs">
+            <span>COVER</span>
+            <a href="">POLITICS</a>
           </div>
-        </section>
-        <!-- END SECTION: THE DEBATE -->
+          <h4>
+            Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And More
+          </h4>
+        </div>
 
+        <div class="col-12 col-lg-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1579624/bronx-nyc-hospital-tent-coronavirus-march-2020.jpg?w=466&amp;h=311&amp;q=90&amp;f=36a1e5404c7d245dc3d11e18ba778436"
+            alt="Bronx, NYC, hospital tent, coronavirus, March 2020"
+          />
+          <div class="section-padding-xs">
+            <span>FEATURES</span>
+            <a href="">HEALTH</a>
+          </div>
+          <h4>
+            How Doctors are Saving Coronavirus Patients with Innovative New
+            Techniques
+          </h4>
+        </div>
+      </div>
 
-        <!-- SECTION: LATEST NEWS -->
-        <section class="container">
-          <h3 class="section-title">LATEST NEWS</h3>
+      <div class="row pt-5">
+        <hr />
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1579490/coronavirus-pandemic-covid-19-new-york.webp?w=466&h=311&q=90&f=9dcb631881b3d1da85b177f53f0fe88c"
+            alt="May 01, 2020 Cover"
+          />
+          <div class="section-padding-xs">
+            <span>PERISCOPE</span>
+            <a href="">CULTURE</a>
+          </div>
+          <h4>
+            Exclusive: How FEMA Missed a Chance to Prepare for Coronavirus
+            Pandemic
+          </h4>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1581592/cul-the-last-dance-banner.webp?w=466&h=311&l=64&t=52&q=90&f=3d5db0a981677ca610a3170abbc9428d"
+            alt="FE_Whitmer_Banner"
+          />
+          <div class="section-padding-xs">
+            <span>DOWNTIME</span>
+            <a href="">CULTURE</a>
+          </div>
+          <h4>
+            Ten Surprising Things We Learned from the Michael Jordan ESPN
+            Documentary
+          </h4>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1581931/cul-uncharted-books-banner.webp?w=466&h=311&q=90&f=761db87ab1263b6a0614fe17874fc744"
+            alt="FE_Whitmer_Q&amp;A"
+          />
+          <div class="section-padding-xs">
+            <span>DOWNTIME</span>
+            <a href="">CULTURE</a>
+          </div>
+          <h4>10 Books That Will Transport You All Around the World</h4>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1579838/floating-comfort.jpg"
+            id="slideshow_1579838"
+            alt="Bronx, NYC, hospital tent, coronavirus, March 2020"
+          />
+          <h4>Floating Comfort</h4>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION: IN THE MAGAZINE -->
+
+    <!--                      -->
+    <!-- SECTION: EDITORS PIC -->
+    <!--                      -->
+    <section class="container bg--white">
+      <!-- SECTION HEADING -->
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center">EDITORS PIC</h3>
+        </div>
+      </div>
+      <hr />
+
+      <!-- ROW-1 -->
+      <div class="row">
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584327/president-donald-trump-florida.webp?w=397&h=265&f=9f89fa21775a739446a5836313fccd0c"
+            alt=""
+          />
+          <h4>
+            Florida Voters Think White House Responded Too Slowly to
+            Coronavirus: Poll
+          </h4>
+          <p>
+            President Trump was also found to be three points behind former Vice
+            President Joe Biden in head-to-head polling from the state.
+          </p>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584318/istock-ramadan-messages-politicians.webp?w=397&h=265&f=b66541aef03ec06b20ca7586c1a891a0"
+            alt=""
+          />
+          <h4>
+            Donald Trump, Justin Trudeau, Queen Rania and Others Share Ramadan
+            Messages
+          </h4>
+          <p>
+            Heads of state across the world have emphasized the importance of
+            social distancing during Ramadan.
+          </p>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584019/covid-19-coronavirus-vaccine-getty.webp?w=397&h=265&f=3246d6cfc5915be6d7158122f32a129b"
+            alt=""
+          />
+          <h4>
+            Coronavirus Vaccine Trial Participant Reveals Potential Side Effects
+          </h4>
+          <p>
+            There are over 100 potential vaccines in development around the
+            world, with the Oxford group among the first to test theirs in human
+            volunteers.
+          </p>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584135/prison.webp?w=397&h=265&f=1084924dacf171bb7ad83f258e0fb4ac"
+            alt=""
+          />
+          <h4>
+            At Least 566 Federal Prisoners Test Positive For COVID-19, With 24
+            Deaths
+          </h4>
+          <p>
+            The Bureau of Prisons currently oversees the care of 143,407 federal
+            inmates in the institutions it manages.
+          </p>
+        </div>
+      </div>
+
+      <!-- ROW-2 -->
+      <div class="row">
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584371/unified-geologic-map-moon.webp?w=397&h=265&f=0b22a1581e27ca99afc7cfb351fa3bba"
+            alt=""
+          />
+          <h4>
+            First Comprehensive Geological Map of the Moon Created by USGS
+          </h4>
+          <p>
+            The map was put together using six regional maps made during the
+            Apollo era, in combination with information collected during recent
+            lunar missions.
+          </p>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584071/covid19-coronavirus-getty.webp?w=397&h=265&f=d86dcfcc43cc6f9cc81ceab6d242e488"
+            alt=""
+          />
+          <h4>
+            Can Animals Get Coronavirus? New York Pet Cats Test Positive for
+            COVID-19
+          </h4>
+          <p>
+            Pet owners with COVID-19 should avoid "petting, snuggling, being
+            kissed or licked, and sharing food or bedding" with their animals,
+            the USDA said.
+          </p>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584085/queen-elizabeth-ii-president-donald-trump.webp?w=397&h=265&f=7a75a8e24fc135e6726da083426d5149"
+            alt=""
+          />
+          <h4>
+            Bizarre Royal Gifts Revealed Including a Bomber Jacket From Donald
+            Trump
+          </h4>
+          <p>
+            The official list of weird and wonderful presents given to the royal
+            family last year is out, with Donald Trump and Archbishop Desmond
+            Tutu both making an appearance.
+          </p>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584157/fish-swimming-through-coral.webp?w=397&h=265&f=55f4201f08fc35422ea053f6d9af6a61"
+            alt=""
+          />
+          <h4>
+            Levels of Ocean Biodiversity Have Barely Changed for Millions of
+            Years
+          </h4>
+          <p>
+            Scientists have analyzed fossils from the Cambrian explosion 540
+            million years ago to the present day to explore levels of marine
+            biodiversity over time.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--                          -->
+    <!-- END SECTION: EDITORS PIC -->
+    <!--                          -->
+
+    <!--               -->
+    <!-- SECTION: U.S. -->
+    <!--               -->
+    <section class="container-lg final-sections bg--white">
+      <div class="row">
+        <div class="col-12">
+          <hr />
+          <h3>U.S.</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584624/jim-justice.webp?w=397&h=265&f=5047c95a1f80b8f3686895ddf0e69d92"
+            alt=""
+          />
+          <h4>
+            West Virginia Gov. Requests Halt to Prisoner Transfers Amid
+            Coronavirus
+          </h4>
+        </div>
+
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584616/donald-trump-jim-bridenstine.webp?w=397&h=265&f=5331af6dac1760ad85f2ec7a60ad5a76"
+            alt=""
+          />
+          <h4>
+            NASA Scientists Have Developed New Equipment to Fight Coronavirus
+            Pandemic
+          </h4>
+        </div>
+
+        <div class="col-4">
           <div class="row">
             <div class="col-12">
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583859/steve-siolak.jpg?w=95&amp;h=95&amp;f=fd7419ff4f8d2fa3abdde3b72ceb18d9"
-                alt="Steve Siolak">
-              <h5 class="latest-news-title">How to Join Virtual 2020 NFL Draft Parties For Your Favorite Team</h5>
-            </div>
-          </div>
-
-          <hr>
-          <div class="row">
-            <div class="col-12">
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583865/greg-abbott.jpg?w=95&amp;h=95&amp;f=87d545afb78d650e9cc645cf55cbb7bc"
-                alt="greg abbott">
-              <h5 class="latest-news-title">Washington Sheriff Refuses to Enforce Governor's Stay-at-Home Order</h5>
-            </div>
-          </div>
-
-          <hr>
-          <div class="row">
-            <div class="col-12">
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583862/blood-donation.jpg?w=95&amp;h=95&amp;f=a40856cc09e365740af71979e874d939"
-                alt="blood donation">
-              <h5 class="latest-news-title">Fox News poll has Biden leading Trump in Michigan and Pennsylvania</h5>
-            </div>
-          </div>
-
-          <hr>
-          <div class="row">
-            <div class="col-12">
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583861/hhs-cdc-logo.jpg?w=95&amp;h=95&amp;f=cd80d2caf9d1d72f9e3b6e553bd3bba6"
-                alt="HHS / CDC Logo" title="HHS / CDC Logo">
-              <h5 class="latest-news-title">Fauci Contradicts Trump on Whether U.S. Will Have Coronavirus in the Fall
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584604/california-governor-gavin-newsom.webp?w=95&h=95&f=c68532049ebc89d614e3a964f39f160d"
+                alt=""
+              />
+              <h5>
+                Gov. Newsom's Plan Pays Restaurants to Deliver 3 Meals Daily to
+                Seniors
               </h5>
             </div>
           </div>
 
-          <hr>
+          <hr />
           <div class="row">
             <div class="col-12">
-              <img class="img-fluid float-left pr-3"
-                src="https://d.newsweek.com/en/full/1583855/2019-nfl-draft-nashville.jpg?w=95&amp;h=95&amp;f=9d934ac60618eece36d742ba6dea6255"
-                alt="2019 NFL Draft in Nashville">
-              <h5 class="latest-news-title">Televangelist Asks for Financial Help After Hawking Fake Coronavirus Cure
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584576/democratic-minnesota-representative-ilhan-omar.webp?w=95&h=95&l=38&t=40&f=b9edee26dda9f71acf969e63352d30b4"
+                alt="2"
+              />
+              <h5>
+                Ilhan Omar Bill Would Expand SNAP Benefits to Allow Online
+                Grocery Shopping
               </h5>
             </div>
           </div>
-        </section>
-        <!-- END SECTION: LATEST NEWS -->
-      </aside>
-      <!-- END RIGHT COLUMN -->
-    </div>
-  </div>
 
-
-  <!-- SECTION: IN THE MAGAZINE -->
-  <section class="container-lg bg--white in-mag">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="text-center">IN THE MAGAZINE</h3>
-      </div>
-    </div>
-    <hr>
-
-    <div class="row">
-      <hr>
-      <div class="col-12 col-lg-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=360&amp;h=480&amp;q=90&amp;f=aa6329ca3fcf4bd58f2da596650d190c"
-          alt="May 01, 2020 Cover">
-        <a href="#none">SEE ALL FEATURES</a>
-      </div>
-
-      <div class="col-12 col-lg-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1582382/fe-whitmer-banner.jpg?w=466&amp;h=311&amp;l=52&amp;t=45&amp;q=90&amp;f=8e32ab6b0456788b57a6b9ebd6b281bf"
-          alt="FE_Whitmer_Banner">
-        <div class="section-padding-xs">
-          <span>COVER</span>
-          <a href="">POLITICS</a>
-        </div>
-        <h4>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</h4>
-      </div>
-
-      <div class="col-12 col-lg-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac"
-          alt="FE_Whitmer_Q&amp;A">
-        <div class="section-padding-xs">
-          <span>COVER</span>
-          <a href="">POLITICS</a>
-        </div>
-        <h4>Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And More</h4>
-      </div>
-
-      <div class="col-12 col-lg-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1579624/bronx-nyc-hospital-tent-coronavirus-march-2020.jpg?w=466&amp;h=311&amp;q=90&amp;f=36a1e5404c7d245dc3d11e18ba778436"
-          alt="Bronx, NYC, hospital tent, coronavirus, March 2020">
-        <div class="section-padding-xs">
-          <span>FEATURES</span>
-          <a href="">HEALTH</a>
-        </div>
-        <h4>How Doctors are Saving Coronavirus Patients with Innovative New Techniques</h4>
-      </div>
-    </div>
-
-
-    <div class="row pt-5">
-      <hr>
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1579490/coronavirus-pandemic-covid-19-new-york.webp?w=466&h=311&q=90&f=9dcb631881b3d1da85b177f53f0fe88c"
-          alt="May 01, 2020 Cover">
-        <div class="section-padding-xs">
-          <span>PERISCOPE</span>
-          <a href="">CULTURE</a>
-        </div>
-        <h4>Exclusive: How FEMA Missed a Chance to Prepare for Coronavirus Pandemic</h4>
-      </div>
-
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1581592/cul-the-last-dance-banner.webp?w=466&h=311&l=64&t=52&q=90&f=3d5db0a981677ca610a3170abbc9428d"
-          alt="FE_Whitmer_Banner">
-        <div class="section-padding-xs">
-          <span>DOWNTIME</span>
-          <a href="">CULTURE</a>
-        </div>
-        <h4>Ten Surprising Things We Learned from the Michael Jordan ESPN Documentary</h4>
-      </div>
-
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1581931/cul-uncharted-books-banner.webp?w=466&h=311&q=90&f=761db87ab1263b6a0614fe17874fc744"
-          alt="FE_Whitmer_Q&amp;A">
-        <div class="section-padding-xs">
-          <span>DOWNTIME</span>
-          <a href="">CULTURE</a>
-        </div>
-        <h4>10 Books That Will Transport You All Around the World</h4>
-      </div>
-
-      <div class="col-3">
-        <img class="img-fluid" src="https://d.newsweek.com/en/full/1579838/floating-comfort.jpg" id="slideshow_1579838"
-          alt="Bronx, NYC, hospital tent, coronavirus, March 2020">
-        <h4>Floating Comfort</h4>
-      </div>
-    </div>
-  </section>
-  <!-- END SECTION: IN THE MAGAZINE -->
-
-  <!--                      -->
-  <!-- SECTION: EDITORS PIC -->
-  <!--                      -->
-  <section class="container bg--white">
-    <!-- SECTION HEADING -->
-    <div class="row">
-      <div class="col-12">
-        <h3 class="text-center">EDITORS PIC</h3>
-      </div>
-    </div>
-    <hr>
-
-    <!-- ROW-1 -->
-    <div class="row">
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584327/president-donald-trump-florida.webp?w=397&h=265&f=9f89fa21775a739446a5836313fccd0c"
-          alt="">
-        <h4>Florida Voters Think White House Responded Too Slowly to Coronavirus: Poll</h4>
-        <p>President Trump was also found to be three points behind former Vice President Joe Biden in head-to-head
-          polling from the state.</p>
-      </div>
-
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584318/istock-ramadan-messages-politicians.webp?w=397&h=265&f=b66541aef03ec06b20ca7586c1a891a0"
-          alt="">
-        <h4>Donald Trump, Justin Trudeau, Queen Rania and Others Share Ramadan Messages</h4>
-        <p>Heads of state across the world have emphasized the importance of social distancing during Ramadan.</p>
-      </div>
-
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584019/covid-19-coronavirus-vaccine-getty.webp?w=397&h=265&f=3246d6cfc5915be6d7158122f32a129b"
-          alt="">
-        <h4>Coronavirus Vaccine Trial Participant Reveals Potential Side Effects</h4>
-        <p>There are over 100 potential vaccines in development around the world, with the Oxford group among the first
-          to test theirs in human volunteers.</p>
-      </div>
-
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584135/prison.webp?w=397&h=265&f=1084924dacf171bb7ad83f258e0fb4ac"
-          alt="">
-        <h4>At Least 566 Federal Prisoners Test Positive For COVID-19, With 24 Deaths </h4>
-        <p>The Bureau of Prisons currently oversees the care of 143,407 federal inmates in the institutions it manages.
-        </p>
-      </div>
-    </div>
-
-    <!-- ROW-2 -->
-    <div class="row">
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584371/unified-geologic-map-moon.webp?w=397&h=265&f=0b22a1581e27ca99afc7cfb351fa3bba"
-          alt="">
-        <h4>First Comprehensive Geological Map of the Moon Created by USGS</h4>
-        <p>The map was put together using six regional maps made during the Apollo era, in combination with information
-          collected during recent lunar missions.</p>
-      </div>
-
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584071/covid19-coronavirus-getty.webp?w=397&h=265&f=d86dcfcc43cc6f9cc81ceab6d242e488"
-          alt="">
-        <h4>Can Animals Get Coronavirus? New York Pet Cats Test Positive for COVID-19</h4>
-        <p>Pet owners with COVID-19 should avoid "petting, snuggling, being kissed or licked, and sharing food or
-          bedding" with their animals, the USDA said.</p>
-      </div>
-
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584085/queen-elizabeth-ii-president-donald-trump.webp?w=397&h=265&f=7a75a8e24fc135e6726da083426d5149"
-          alt="">
-        <h4>Bizarre Royal Gifts Revealed Including a Bomber Jacket From Donald Trump</h4>
-        <p>The official list of weird and wonderful presents given to the royal family last year is out, with Donald
-          Trump and Archbishop Desmond Tutu both making an appearance.</p>
-      </div>
-
-      <div class="col-3">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584157/fish-swimming-through-coral.webp?w=397&h=265&f=55f4201f08fc35422ea053f6d9af6a61"
-          alt="">
-        <h4>Levels of Ocean Biodiversity Have Barely Changed for Millions of Years</h4>
-        <p>Scientists have analyzed fossils from the Cambrian explosion 540 million years ago to the present day to
-          explore levels of marine biodiversity over time.</p>
-      </div>
-    </div>
-  </section>
-  <!--                          -->
-  <!-- END SECTION: EDITORS PIC -->
-  <!--                          -->
-
-
-  <!--               -->
-  <!-- SECTION: U.S. -->
-  <!--               -->
-  <section class="container-lg final-sections bg--white">
-    <div class="row">
-      <div class="col-12">
-        <hr>
-        <h3>U.S.</h3>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584624/jim-justice.webp?w=397&h=265&f=5047c95a1f80b8f3686895ddf0e69d92"
-          alt="">
-        <h4>West Virginia Gov. Requests Halt to Prisoner Transfers Amid Coronavirus</h4>
-      </div>
-
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584616/donald-trump-jim-bridenstine.webp?w=397&h=265&f=5331af6dac1760ad85f2ec7a60ad5a76"
-          alt="">
-        <h4>NASA Scientists Have Developed New Equipment to Fight Coronavirus Pandemic</h4>
-      </div>
-
-      <div class="col-4">
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584604/california-governor-gavin-newsom.webp?w=95&h=95&f=c68532049ebc89d614e3a964f39f160d"
-              alt="">
-            <h5>Gov. Newsom's Plan Pays Restaurants to Deliver 3 Meals Daily to Seniors</h5>
-          </div>
-        </div>
-
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584576/democratic-minnesota-representative-ilhan-omar.webp?w=95&h=95&l=38&t=40&f=b9edee26dda9f71acf969e63352d30b4"
-              alt="2">
-            <h5>Ilhan Omar Bill Would Expand SNAP Benefits to Allow Online Grocery Shopping</h5>
-          </div>
-        </div>
-
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584585/governor-andrew-cuomo.webp?w=95&h=95&f=1a5192ba144352eb4d4dd787158d113b"
-              alt="3">
-            <h5>Majority Approve of Their State's Response To COVID-19 Pandemic: Poll</h5>
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584585/governor-andrew-cuomo.webp?w=95&h=95&f=1a5192ba144352eb4d4dd787158d113b"
+                alt="3"
+              />
+              <h5>
+                Majority Approve of Their State's Response To COVID-19 Pandemic:
+                Poll
+              </h5>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--                   -->
-  <!-- END SECTION: U.S. -->
-  <!--                   -->
+    </section>
+    <!--                   -->
+    <!-- END SECTION: U.S. -->
+    <!--                   -->
 
-
-  <!--                -->
-  <!-- SECTION: WORLD -->
-  <!--                -->
-  <section class="container-lg final-sections bg--white">
-    <div class="row">
-      <div class="col-12">
-        <hr>
-        <h3>World</h3>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584477/osaka-mayor-ichiro-matsui-press-conference.webp?w=397&h=265&f=0cea3ea133cdf2b0577f9507dbf21a3a"
-          alt="">
-        <h4>Japanese Mayor Says Women Take Longer to Grocery Shop Than Men</h4>
-      </div>
-
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584428/armenian-genocide-turkey-us-recognition-senate-house.webp?w=397&h=265&f=c3e5c67dc9b73d19916956f415d3d6a2"
-          alt="">
-        <h4>Why the Armenian Genocide Remains Unrecognized by the U.S.</h4>
-      </div>
-
-      <div class="col-4">
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584349/amir-ali-hajizadeh-iran-us-iraq-rocketattack.webp?w=95&h=95&f=d6a55afff7eae85723945f12630e0ca0"
-              alt="">
-            <h5>Iran Commander Claims Forces Were Ready to Hit 400 U.S. Targets in January</h5>
-          </div>
-        </div>
-
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584350/economic-downturn.webp?w=95&h=95&f=b971a6ebdebb9accb439cd7079b3f261"
-              alt="2">
-            <h5>U.K. Retail Sales Fall Sharpest Since Records Began</h5>
-          </div>
-        </div>
-
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584304/coronavirus-health-workers-modena-italy-april-2020.webp?w=95&h=95&f=372cdd4e2050c3081cdc23c823d9e2ff"
-              alt="3">
-            <h5>Italy's Daily Coronavirus Recoveries Surpass New Cases for the First Time</h5>
-          </div>
+    <!--                -->
+    <!-- SECTION: WORLD -->
+    <!--                -->
+    <section class="container-lg final-sections bg--white">
+      <div class="row">
+        <div class="col-12">
+          <hr />
+          <h3>World</h3>
         </div>
       </div>
-    </div>
-  </section>
-  <!--                    -->
-  <!-- END SECTION: WORLD -->
-  <!--                    -->
 
-
-
-  <!--                   -->
-  <!-- SECTION: BUSINESS -->
-  <!--                   -->
-  <section class="container-lg final-sections bg--white">
-    <div class="row">
-      <div class="col-12">
-        <hr>
-        <h3>Business</h3>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1576664/coronavirus-stock.webp?w=397&h=265&f=24a40adb5b7bcb3f9b009367f9e5da3a"
-          alt="">
-        <h4>80% of sites pushing COVID-19 fake news were publishing other conspiracies</h4>
-      </div>
-
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584194/new-york-stock-exchange.webp?w=397&h=265&f=7ca2289501f4e05ece1b0f7dc6c0676f"
-          alt="">
-        <h4>More People Have Filed for Unemployment Than Live in 10 Largest U.S. Cities</h4>
-      </div>
-
-      <div class="col-4">
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1583761/small-business-administration-white-house-discussion.webp?w=95&h=95&f=5e0f0e0d9e8016812094291bf88c2c22"
-              alt="">
-            <h5>Fogo de Chão To Receive $20 Million In Small Business Loan</h5>
-          </div>
+      <div class="row">
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584477/osaka-mayor-ichiro-matsui-press-conference.webp?w=397&h=265&f=0cea3ea133cdf2b0577f9507dbf21a3a"
+            alt=""
+          />
+          <h4>
+            Japanese Mayor Says Women Take Longer to Grocery Shop Than Men
+          </h4>
         </div>
 
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1583237/us-wti-oil-price-drop-low-may.webp?w=95&h=95&f=3a977b66828745e0e34c3d6f6ee778a8"
-              alt="2">
-            <h5>Low Oil Prices Could Stretch Into May, Analysts Say Following Collapse</h5>
-          </div>
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584428/armenian-genocide-turkey-us-recognition-senate-house.webp?w=397&h=265&f=c3e5c67dc9b73d19916956f415d3d6a2"
+            alt=""
+          />
+          <h4>Why the Armenian Genocide Remains Unrecognized by the U.S.</h4>
         </div>
 
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1583118/amazon-warehouse-worker.webp?w=95&h=95&f=b647dd370861b846254133dc4634ea64"
-              alt="3">
-            <h5>Amazon Staffers Protest Company After 75 Test Positive for Coronavirus</h5>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584349/amir-ali-hajizadeh-iran-us-iraq-rocketattack.webp?w=95&h=95&f=d6a55afff7eae85723945f12630e0ca0"
+                alt=""
+              />
+              <h5>
+                Iran Commander Claims Forces Were Ready to Hit 400 U.S. Targets
+                in January
+              </h5>
+            </div>
+          </div>
+
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584350/economic-downturn.webp?w=95&h=95&f=b971a6ebdebb9accb439cd7079b3f261"
+                alt="2"
+              />
+              <h5>U.K. Retail Sales Fall Sharpest Since Records Began</h5>
+            </div>
+          </div>
+
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584304/coronavirus-health-workers-modena-italy-april-2020.webp?w=95&h=95&f=372cdd4e2050c3081cdc23c823d9e2ff"
+                alt="3"
+              />
+              <h5>
+                Italy's Daily Coronavirus Recoveries Surpass New Cases for the
+                First Time
+              </h5>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--                       -->
-  <!-- END SECTION: BUSINESS -->
-  <!--                       -->
+    </section>
+    <!--                    -->
+    <!-- END SECTION: WORLD -->
+    <!--                    -->
 
-
-  <!--                         -->
-  <!-- SECTION: TECH & SCIENCE -->
-  <!--                         -->
-  <section class="container-lg final-sections bg--white">
-    <div class="row">
-      <div class="col-12">
-        <hr>
-        <h3>Tech & Science</h3>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584411/hubble-space-telescope-cosmic-reef.webp?w=397&h=265&f=66241faab5d0f0ad11a61d874a1bbe26"
-          alt="">
-        <h4>NASA Marks Hubble's 30th Birthday With Stunning Image of 'Cosmic Reef'</h4>
-      </div>
-
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584364/sakurajima-japan.webp?w=397&h=265&f=2c858c897bcdcff052727cb37a9456f5"
-          alt="">
-        <h4>Japan's Sakurajima Volcano Erupts, Spewing Lava Bombs and Ash Into Air</h4>
-      </div>
-
-      <div class="col-4">
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584368/nintendo.webp?w=95&h=95&f=307f67e80498d06bea6f912d3a7fb26d"
-              alt="">
-            <h5>Nintendo Confirms Hack Attack Has Exposed 160,000 User Accounts</h5>
-          </div>
-        </div>
-
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584352/5g-mobile-phone-mast.webp?w=95&h=95&f=7231f470ff75ecbee75d9e40cad36bb7"
-              alt="2">
-            <h5>China Planning 500,000 New 5G Base Stations by End of Year Despite COVID-19</h5>
-          </div>
-        </div>
-
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584331/bee-cherry-blossom.webp?w=95&h=95&f=3ac71ada15ea77c96f7dc37bb0999fae"
-              alt="3">
-            <h5>The World is Losing 9 Percent of Its Insects Every Decade, Study Finds</h5>
-          </div>
+    <!--                   -->
+    <!-- SECTION: BUSINESS -->
+    <!--                   -->
+    <section class="container-lg final-sections bg--white">
+      <div class="row">
+        <div class="col-12">
+          <hr />
+          <h3>Business</h3>
         </div>
       </div>
-    </div>
-  </section>
-  <!--                             -->
-  <!-- END SECTION: TECH & SCIENCE -->
-  <!--                             -->
 
-
-  <!--                  -->
-  <!-- SECTION: Culture -->
-  <!--                  -->
-  <section class="container-lg final-sections bg--white">
-    <div class="row">
-      <div class="col-12">
-        <hr>
-        <h3>Culture</h3>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1563435/dolly-parton.webp?w=397&h=265&f=86546e97a2e84e3901dc532050f1796b"
-          alt="">
-        <h4>Here's What Dolly Parton and 'Buffy the Vampire Slayer' Have in Common</h4>
-      </div>
-
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1552965/expanse-season-4-cast.webp?w=397&h=265&f=c8d9cbcd01fb5cae2296c0d1f370c87b"
-          alt="">
-        <h4>'The Expanse' Author Nixes Musical Episode Idea</h4>
-      </div>
-
-      <div class="col-4">
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/372997/rolling-stones.webp?w=95&h=95&f=2008a5e52d15764e35e97516b914806b"
-              alt="">
-            <h5>Mick Jagger Swats Away Paul McCartney's Take on the Beatles vs. the Stones</h5>
-          </div>
+      <div class="row">
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1576664/coronavirus-stock.webp?w=397&h=265&f=24a40adb5b7bcb3f9b009367f9e5da3a"
+            alt=""
+          />
+          <h4>
+            80% of sites pushing COVID-19 fake news were publishing other
+            conspiracies
+          </h4>
         </div>
 
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584493/how-watch-muppets-abcs-covid-19-your-toddler.webp?w=95&h=95&f=850d13087889e044b60e007a0b682337"
-              alt="2">
-            <h5>How to Watch 'Sesame Street' Explain 'The ABC's of COVID-19'</h5>
-          </div>
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584194/new-york-stock-exchange.webp?w=397&h=265&f=7ca2289501f4e05ece1b0f7dc6c0676f"
+            alt=""
+          />
+          <h4>
+            More People Have Filed for Unemployment Than Live in 10 Largest U.S.
+            Cities
+          </h4>
         </div>
 
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584500/rose.webp?w=95&h=95&f=3d50d432bf96eccfde31e9fcb93bf9d2"
-              alt="3">
-            <h5>This Woman Made Herself The 'Twitter Bachelorette' and It's Incredible</h5>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1583761/small-business-administration-white-house-discussion.webp?w=95&h=95&f=5e0f0e0d9e8016812094291bf88c2c22"
+                alt=""
+              />
+              <h5>
+                Fogo de Chão To Receive $20 Million In Small Business Loan
+              </h5>
+            </div>
+          </div>
+
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1583237/us-wti-oil-price-drop-low-may.webp?w=95&h=95&f=3a977b66828745e0e34c3d6f6ee778a8"
+                alt="2"
+              />
+              <h5>
+                Low Oil Prices Could Stretch Into May, Analysts Say Following
+                Collapse
+              </h5>
+            </div>
+          </div>
+
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1583118/amazon-warehouse-worker.webp?w=95&h=95&f=b647dd370861b846254133dc4634ea64"
+                alt="3"
+              />
+              <h5>
+                Amazon Staffers Protest Company After 75 Test Positive for
+                Coronavirus
+              </h5>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--                      -->
-  <!-- END SECTION: Culture -->
-  <!--                      -->
+    </section>
+    <!--                       -->
+    <!-- END SECTION: BUSINESS -->
+    <!--                       -->
 
-
-  <!--                 -->
-  <!-- SECTION: Sports -->
-  <!--                 -->
-  <section class="container-lg final-sections bg--white">
-    <div class="row">
-      <div class="col-12">
-        <hr>
-        <h3>Sports</h3>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584618/wwe-smackdown-braun-strowman-black-sheep.webp?w=397&h=265&f=da102078dc1be3fc6e0914328319dbd0"
-          alt="">
-        <h4>'Friday Night SmackDown' Results (4/24): More Money in the Bank Competitors</h4>
+    <!--                         -->
+    <!-- SECTION: TECH & SCIENCE -->
+    <!--                         -->
+    <section class="container-lg final-sections bg--white">
+      <div class="row">
+        <div class="col-12">
+          <hr />
+          <h3>Tech & Science</h3>
+        </div>
       </div>
 
-      <div class="col-4">
-        <img class="img-fluid"
-          src="https://d.newsweek.com/en/full/1584589/wwe-nxt-velveteen-dream-talks-undisputed.webp?w=397&h=265&f=8ce7b80189a75b94e962658069d9c263"
-          alt="">
-        <h4>Velveteen Dream Denies Allegations of Sending Explicit Photos to Minor</h4>
+      <div class="row">
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584411/hubble-space-telescope-cosmic-reef.webp?w=397&h=265&f=66241faab5d0f0ad11a61d874a1bbe26"
+            alt=""
+          />
+          <h4>
+            NASA Marks Hubble's 30th Birthday With Stunning Image of 'Cosmic
+            Reef'
+          </h4>
+        </div>
+
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584364/sakurajima-japan.webp?w=397&h=265&f=2c858c897bcdcff052727cb37a9456f5"
+            alt=""
+          />
+          <h4>
+            Japan's Sakurajima Volcano Erupts, Spewing Lava Bombs and Ash Into
+            Air
+          </h4>
+        </div>
+
+        <div class="col-4">
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584368/nintendo.webp?w=95&h=95&f=307f67e80498d06bea6f912d3a7fb26d"
+                alt=""
+              />
+              <h5>
+                Nintendo Confirms Hack Attack Has Exposed 160,000 User Accounts
+              </h5>
+            </div>
+          </div>
+
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584352/5g-mobile-phone-mast.webp?w=95&h=95&f=7231f470ff75ecbee75d9e40cad36bb7"
+                alt="2"
+              />
+              <h5>
+                China Planning 500,000 New 5G Base Stations by End of Year
+                Despite COVID-19
+              </h5>
+            </div>
+          </div>
+
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584331/bee-cherry-blossom.webp?w=95&h=95&f=3ac71ada15ea77c96f7dc37bb0999fae"
+                alt="3"
+              />
+              <h5>
+                The World is Losing 9 Percent of Its Insects Every Decade, Study
+                Finds
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                             -->
+    <!-- END SECTION: TECH & SCIENCE -->
+    <!--                             -->
+
+    <!--                  -->
+    <!-- SECTION: Culture -->
+    <!--                  -->
+    <section class="container-lg final-sections bg--white">
+      <div class="row">
+        <div class="col-12">
+          <hr />
+          <h3>Culture</h3>
+        </div>
       </div>
 
-      <div class="col-4">
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584592/oklahoma-sooners-football.webp?w=95&h=95&f=3ca265b46e3a2954eff1c6344e837da5"
-              alt="">
-            <h5>Oklahoma Plans For In-Person Classes This Fall Opens Door For Football</h5>
+      <div class="row">
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1563435/dolly-parton.webp?w=397&h=265&f=86546e97a2e84e3901dc532050f1796b"
+            alt=""
+          />
+          <h4>
+            Here's What Dolly Parton and 'Buffy the Vampire Slayer' Have in
+            Common
+          </h4>
+        </div>
+
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1552965/expanse-season-4-cast.webp?w=397&h=265&f=c8d9cbcd01fb5cae2296c0d1f370c87b"
+            alt=""
+          />
+          <h4>'The Expanse' Author Nixes Musical Episode Idea</h4>
+        </div>
+
+        <div class="col-4">
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/372997/rolling-stones.webp?w=95&h=95&f=2008a5e52d15764e35e97516b914806b"
+                alt=""
+              />
+              <h5>
+                Mick Jagger Swats Away Paul McCartney's Take on the Beatles vs.
+                the Stones
+              </h5>
+            </div>
+          </div>
+
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584493/how-watch-muppets-abcs-covid-19-your-toddler.webp?w=95&h=95&f=850d13087889e044b60e007a0b682337"
+                alt="2"
+              />
+              <h5>
+                How to Watch 'Sesame Street' Explain 'The ABC's of COVID-19'
+              </h5>
+            </div>
+          </div>
+
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584500/rose.webp?w=95&h=95&f=3d50d432bf96eccfde31e9fcb93bf9d2"
+                alt="3"
+              />
+              <h5>
+                This Woman Made Herself The 'Twitter Bachelorette' and It's
+                Incredible
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                      -->
+    <!-- END SECTION: Culture -->
+    <!--                      -->
+
+    <!--                 -->
+    <!-- SECTION: Sports -->
+    <!--                 -->
+    <section class="container-lg final-sections bg--white">
+      <div class="row">
+        <div class="col-12">
+          <hr />
+          <h3>Sports</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584618/wwe-smackdown-braun-strowman-black-sheep.webp?w=397&h=265&f=da102078dc1be3fc6e0914328319dbd0"
+            alt=""
+          />
+          <h4>
+            'Friday Night SmackDown' Results (4/24): More Money in the Bank
+            Competitors
+          </h4>
+        </div>
+
+        <div class="col-4">
+          <img
+            class="img-fluid"
+            src="https://d.newsweek.com/en/full/1584589/wwe-nxt-velveteen-dream-talks-undisputed.webp?w=397&h=265&f=8ce7b80189a75b94e962658069d9c263"
+            alt=""
+          />
+          <h4>
+            Velveteen Dream Denies Allegations of Sending Explicit Photos to
+            Minor
+          </h4>
+        </div>
+
+        <div class="col-4">
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584592/oklahoma-sooners-football.webp?w=95&h=95&f=3ca265b46e3a2954eff1c6344e837da5"
+                alt=""
+              />
+              <h5>
+                Oklahoma Plans For In-Person Classes This Fall Opens Door For
+                Football
+              </h5>
+            </div>
+          </div>
+
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584579/wisconsin-running-back-jonathan-taylor.webp?w=95&h=95&f=36de880355a222af3044ac37285f9e26"
+                alt="2"
+              />
+              <h5>
+                2020 NFL Draft Day 2 Picks: Live Results of Second and Third
+                Round
+              </h5>
+            </div>
+          </div>
+
+          <hr />
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="img-fluid float-left pr-3"
+                src="https://d.newsweek.com/en/full/1584439/triple-h-jacket-raw.webp?w=95&h=95&l=53&t=23&f=141f58ecb4f54dd836db1a3860ac4659"
+                alt="3"
+              />
+              <h5>Q&A: Triple H Talks Career</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                     -->
+    <!-- END SECTION: Sports -->
+    <!--                     -->
+
+    <!--                    -->
+    <!-- SECTION: Subscribe -->
+    <!--                    -->
+    <section class="container bg--white final-sections mt-1">
+      <div class="row">
+        <div class="col-8">
+          <h3>SUBSCRIBE</h3>
+        </div>
+
+        <div class="col-4">
+          <h3>NEWSLETTER</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-8">
+          <div class="container p-4 bg--grey">
+            <div class="row">
+              <div class="col-6">
+                <img
+                  class="mr-n5"
+                  src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=170&q=95&f=b4884b3be2e05e586232cc3f3d569aa8"
+                  alt=""
+                />
+                <img
+                  class="ml-n5 mb-n5"
+                  src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&q=95&f=1a0d984a3141e5762557f214ca2a1540"
+                  alt=""
+                />
+              </div>
+              <div class="col-6">
+                <h2>
+                  In-depth Stories You Don't See Elsewhere About Topics You Want
+                  to Read!
+                </h2>
+                <p>
+                  All Access + Weekly Delivery. Choose A Membership That's
+                  Perfect for You!
+                </p>
+                <button>SUBSCRIBE</button>
+              </div>
+            </div>
           </div>
         </div>
 
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584579/wisconsin-running-back-jonathan-taylor.webp?w=95&h=95&f=36de880355a222af3044ac37285f9e26"
-              alt="2">
-            <h5>2020 NFL Draft Day 2 Picks: Live Results of Second and Third Round</h5>
-          </div>
-        </div>
-
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <img class="img-fluid float-left pr-3"
-              src="https://d.newsweek.com/en/full/1584439/triple-h-jacket-raw.webp?w=95&h=95&l=53&t=23&f=141f58ecb4f54dd836db1a3860ac4659"
-              alt="3">
-            <h5>Q&A: Triple H Talks Career</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--                     -->
-  <!-- END SECTION: Sports -->
-  <!--                     -->
-
-
-  <!--                    -->
-  <!-- SECTION: Subscribe -->
-  <!--                    -->
-  <section class="container bg--white final-sections mt-1">
-    <div class="row">
-      <div class="col-8">
-        <h3>SUBSCRIBE</h3>
-      </div>
-
-      <div class="col-4">
-        <h3>NEWSLETTER</h3>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-8">
-        <div class="container p-4 bg--grey">
+        <div class="col-4">
           <div class="row">
             <div class="col-6">
-              <img class="mr-n5"
-                src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=170&q=95&f=b4884b3be2e05e586232cc3f3d569aa8"
-                alt="">
-              <img class="ml-n5 mb-n5"
-                src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&q=95&f=1a0d984a3141e5762557f214ca2a1540"
-                alt="">
+              <img
+                class="img-fluid"
+                src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
+                alt=""
+                height="100%"
+              />
             </div>
             <div class="col-6">
-              <h2>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
-              <p>All Access + Weekly Delivery.
-                Choose A Membership That's Perfect for You!</p>
-              <button>SUBSCRIBE</button>
+              <h5>The Starting 5</h5>
+              <p>
+                See why nearly a quarter of a million subscribers begin their
+                day with the Starting 5.
+              </p>
+              <button>SIGN UP</button>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <!--                        -->
+    <!-- END SECTION: Subscribe -->
+    <!--                        -->
 
-      <div class="col-4">
-        <div class="row">
-          <div class="col-6">
-            <img class="img-fluid"
-              src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
-              alt="" height="100%">
-          </div>
-          <div class="col-6">
-            <h5>The Starting 5</h5>
-            <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-            <button>SIGN UP</button>
-          </div>
+    <footer class="container-lg bg--white footer section-padding-sm mt-1">
+      <div class="container-fluid">
+        <div class="row footer-header">
+          <h1 class="footer-title">Newsweek</h1>
+        </div>
+
+        <div class="row pt-3">
+          <ul>
+            <h6><strong>Editions:</strong></h6>
+            <li><a href="#none">U.S. Edition</a></li>
+            <li><a href="#none">日本</a></li>
+            <li><a href="#none">Pakistan</a></li>
+            <li><a href="#none">Polska</a></li>
+            <li><a href="#none">România</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#none">About Us</a></li>
+            <li><a href="#none">Corrections</a></li>
+            <li><a href="#none">Contact Us</a></li>
+            <li><a href="#none">Editorial Guidelines</a></li>
+            <li><a href="#none">Advertise</a></li>
+            <li><a href="#none">Copyright</a></li>
+            <li><a href="#none">Terms & Conditions</a></li>
+            <li><a href="#none">Privacy Policy</a></li>
+            <li><a href="#none">Cookie Policy</a></li>
+            <li><a href="#none">Terms of Sale</a></li>
+            <li><a href="#none">Archive</a></li>
+            <li><a href="#none">Announcements</a></li>
+            <li><a href="#none">Consent preferences</a></li>
+          </ul>
         </div>
       </div>
-  </section>
-  <!--                        -->
-  <!-- END SECTION: Subscribe -->
-  <!--                        -->
+    </footer>
 
-  <footer class="container-lg bg--white footer section-padding-sm mt-1">
-    <div class="container-fluid">
-      <div class="row footer-header">
-        <h1 class="footer-title">Newsweek</h1>
-      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
 
-      <div class="row pt-3">
-        <ul>
-          <h6><strong>Editions:</strong></h6>
-          <li><a href="#none">U.S. Edition</a></li>
-          <li><a href="#none">日本</a></li>
-          <li><a href="#none">Pakistan</a></li>
-          <li><a href="#none">Polska</a></li>
-          <li><a href="#none">România</a></li>
-        </ul>
+    <script>
+      var menuBtn = document.getElementById("menu-btn");
 
-        <ul>
-          <li><a href="#none">About Us</a></li>
-          <li><a href="#none">Corrections</a></li>
-          <li><a href="#none">Contact Us</a></li>
-          <li><a href="#none">Editorial Guidelines</a></li>
-          <li><a href="#none">Advertise</a></li>
-          <li><a href="#none">Copyright</a></li>
-          <li><a href="#none">Terms & Conditions</a></li>
-          <li><a href="#none">Privacy Policy</a></li>
-          <li><a href="#none">Cookie Policy</a></li>
-          <li><a href="#none">Terms of Sale</a></li>
-          <li><a href="#none">Archive</a></li>
-          <li><a href="#none">Announcements</a></li>
-          <li><a href="#none">Consent preferences</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-
-  <script>
-    var menuBtn = document.getElementById('menu-btn');
-
-    menuBtn.addEventListener('click', function () {
-      menuBtn.classList.toggle("change");
-    });
-  </script>
-
-</body>
-
+      menuBtn.addEventListener("click", function () {
+        menuBtn.classList.toggle("change");
+      });
+    </script>
+  </body>
 </html>
