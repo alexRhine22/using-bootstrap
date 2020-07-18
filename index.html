@@ -22,6 +22,7 @@
       rel="stylesheet"
     />
 
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" />
     <!-- My styelsheet -->
     <link rel="stylesheet" href="/style.css" />
 
@@ -32,7 +33,11 @@
       <span id="header-date" class="header__date"></span>
 
       <a href="/">
-        <img class="header__logo" src="/images/newsweek-logo.png" alt="logo" />
+        <img
+          class="header__logo"
+          src="/images/icons/newsweek-logo.svg"
+          alt="logo"
+        />
       </a>
 
       <div class="d-flex align-items-center">
@@ -887,7 +892,61 @@
     </section>
     <!-- END SECTION: editor's pick -->
 
-    <footer></footer>
+    <footer class="footer bg--white">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__logo-container">
+            <img
+              class="footer__logo"
+              src="/images/icons/newsweek-logo--red.svg"
+              alt="logo red"
+            />
+
+            <span class="footer__copyright">© 2020 Newsweek</span>
+          </div>
+
+          <ul class="footer__social-list">
+            <li>
+              <img src="/images/icons/facebook.svg" alt="facebook" />
+            </li>
+            <li>
+              <img src="/images/icons/twitter.svg" alt="twitter" />
+            </li>
+            <li>
+              <img src="/images/icons/instagram.svg" alt="instagram.svg" />
+            </li>
+            <li>
+              <img src="/images/icons/linkedin.svg" alt="linkedin.svg" />
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer__list">
+          <li><h6>Editions:</h6></li>
+          <li>U.S. Edition</li>
+          <li>日本</li>
+          <li>Pakistan</li>
+          <li>Polska</li>
+          <li>România</li>
+        </ul>
+
+        <ul class="footer__list">
+          <li>about Us</li>
+          <li>Corrections</li>
+          <li>Contact Us</li>
+          <li>Editorial Guidelines</li>
+          <li>Advertise</li>
+          <li>Copyright</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+          <li>Cookie Policy</li>
+          <li>Terms of Sale</li>
+          <li>Archive</li>
+          <li>Announcements</li>
+          <li>Consent preferences</li>
+        </ul>
+      </div>
+    </footer>
 
     <!-- My scripts -->
     <script src="assets/get-date.js"></script>
